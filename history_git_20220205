@@ -7,7 +7,7 @@
 12082  git commit -m "First commit"
 12083  git log
 12084  git log 82ab03c
-12085  git lgp
+12085  git lgp    # alias stephdl
 12086  echo "# 2eme ligne" >> README
 12087  cat README
 12088  git status
@@ -23,12 +23,10 @@
 12098  git remote -v
 12099  git branch -M main
 12100  git push -u origin main
-12101  git remote origin set-url git@github.com:stephdl/smail.git
 12102  git remote set-url origin  git@github.com:stephdl/smail.git
 12103  git push -u origin main
 12104  vim README
 12105  git status
-12106  gti diff main
 12107  git diff main
 12108  git commit -am "3 eme commit"
 12109  git push -u origin main
@@ -47,8 +45,6 @@
 12122  ./essai.sh
 12123  git commit -am "echo toto"
 12124  git push -u origin feature
-12125  git chechout main
-12126  git checkhout main
 12127  git checkout main
 12128  git log
 12129  git pull origin main
